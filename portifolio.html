@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio — Engenharia de Computação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">Jonathan Oliveira</div>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#skills">Competências</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" style="border-top:none;">
+    <div class="wrap">
+      <div class="hero-top">
+        <div class="avatar" id="avatarBox">
+          <img id="profilePhoto" src="photo.JPG" alt="Foto de perfil">
+          <div class="avatar-placeholder">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/>
+            </svg>
+          </div>
+        </div>
+        <div class="eyebrow">Estudante de Engenharia de Computação</div>
+      </div>
+
+      <h1>Olá, eu sou <span class="accent">Jonathan Oliveira</span>.</h1>
+      <p class="lede">
+        Estudante de <b>Engenharia de Computação</b> na <b>UFRN</b>, cursando o <b>7º período</b>.
+        Trabalho com <b>Python, C++, Go, C e JavaScript</b>, e gosto de entender como as coisas
+        funcionam por baixo dos panos — de algoritmos a sistemas.
+      </p>
+      <div class="cta-row">
+        <a href="#projetos" class="btn primary">Ver projetos</a>
+        <a href="#contato" class="btn ghost">Entrar em contato</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="sobre">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Sobre</div>
+        <h2>Um pouco sobre mim</h2>
+      </div>
+
+      <div class="about-grid">
+        <div>
+          <p>Sou estudante de <b>Engenharia de Computação</b> na <b>UFRN</b>, atualmente no <b>7º período</b>.
+          Tenho interesse em desenvolvimento de software, sistemas e nas diferenças entre linguagens de programação
+          na forma como resolvem um mesmo problema.</p>
+          <p>Antes da faculdade, cursei o <b>Técnico em Mecânica pelo IFRN</b>, o que me deu uma boa base de
+          raciocínio lógico e resolução estruturada de problemas.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="info-row"><span>Formação</span><span>Eng. de Computação — UFRN</span></div>
+          <div class="info-row"><span>Período</span><span>7º período</span></div>
+          <div class="info-row"><span>Linguagens</span><span>Python · C++ · Go · C · JS</span></div>
+          <div class="info-row"><span>Local</span><span>Natal, RN</span></div>
+          <div class="info-row"><span>Status</span><span>Aberto a estágio/projetos</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Competências</div>
+        <h2>Linguagens e ferramentas</h2>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="formacao">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Formação</div>
+        <h2>Trajetória acadêmica</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-date">Atual</div>
+          <div>
+            <h3>Engenharia de Computação — UFRN</h3>
+            <p>7º período. Foco em desenvolvimento de software, algoritmos e sistemas.</p>
+            <span class="tl-status">em curso</span>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Concluído</div>
+          <div>
+            <h3>Técnico em Mecânica — IFRN</h3>
+            <p>Formação técnica de nível médio, com base em raciocínio lógico e resolução de problemas.</p>
+            <span class="tl-status past">concluído</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projetos">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Projetos</div>
+        <h2>Alguns trabalhos</h2>
+      </div>
+
+      <div class="proj-grid">
+        <div class="proj-card">
+          <h3>Nome do projeto</h3>
+          <p>Descreva em uma frase o problema que o projeto resolve e o resultado alcançado.</p>
+          <div class="proj-tags"><span class="tag">C++</span><span class="tag">CMake</span></div>
+          <a href="#" class="proj-link">Ver repositório →</a>
+        </div>
+        <div class="proj-card">
+          <h3>Nome do projeto</h3>
+          <p>Descreva em uma frase o problema que o projeto resolve e o resultado alcançado.</p>
+          <div class="proj-tags"><span class="tag">Python</span><span class="tag">CLI</span></div>
+          <a href="#" class="proj-link">Ver repositório →</a>
+        </div>
+        <div class="proj-card">
+          <h3>Nome do projeto</h3>
+          <p>Descreva em uma frase o problema que o projeto resolve e o resultado alcançado.</p>
+          <div class="proj-tags"><span class="tag">Go</span><span class="tag">API</span></div>
+          <a href="#" class="proj-link">Ver repositório →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contato" class="contact">
+    <div class="wrap">
+      <div class="eyebrow">Contato</div>
+      <h2>Vamos conversar</h2>
+      <p class="lede">Aberto a oportunidades de estágio e projetos que envolvam desenvolvimento de software.</p>
+      <div class="contact-row">
+        <a href="mailto:seuemail@exemplo.com" class="btn primary">jonathan.oliveira.117@ufrn.edu.br</a>
+        <a href="https://github.com/JonathanOliveir4" target="_blank" rel="noopener noreferrer" class="btn ghost">GitHub</a>
+        <a href="https://www.linkedin.com/in/jjonathanoliveira" target="_blank" rel="noopener noreferrer" class="btn ghost">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Jonathan Oliveira — Natal, RN</span>
+  <span>Portfólio pessoal</span>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
